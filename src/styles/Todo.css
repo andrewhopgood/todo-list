@@ -1,0 +1,47 @@
+#todo__container {
+  display: flex;
+  width: 60vw;
+  height: 50px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#btn__delete,
+#btn__complete {
+  height: 100%;
+  width: 50px;
+}
+
+#btn__delete {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+#btn__complete {
+  background-color: rgb(74, 182, 74);
+  color: white;
+  cursor: pointer;
+}
+
+#btn__complete:hover {
+  color: #333;
+}
+
+#btn__delete:hover {
+  color: #333;
+}
+
+.todo__text {
+  display: flex;
+  flex: 1;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.completed {
+  color: red;
+  text-decoration: line-through;
+}
